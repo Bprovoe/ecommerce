@@ -1,0 +1,136 @@
+
+
+
+
+header
+{
+background-color: tan;
+
+}
+
+.navlinks
+{
+  background-color: tan;
+}
+header img {
+  max-height: 6rem;
+}
+
+h1 .logo-w {
+  font-size: 3.5rem;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+body {
+  font-size: 100%;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #2d2d2d;
+}
+
+
+input[type="submit"] {
+  padding: .25rem;
+  background-color: #3D7FCF;
+  border: 1px solid #3D7FCF;
+  border-radius: 5px;
+  font-size: .75rem;
+  color: white;
+}
+h2 {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+
+
+
+
+.titleandmail
+{
+
+  max-width:83%;
+  margin: auto;
+}
+
+.section {
+
+	padding: 0px;
+	margin: auto;
+  max-width: 83%;
+}
+
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+
+}
+.col:first-child { margin-left: 0; }
+
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+img {
+  max-height: 20em;
+}
+
+.description {
+  max-width: 60%;
+}
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+
+/* Navigation Css */
+
+
+
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% .5%;
+}
+.col:first-child { margin-left: 0; }
+
+
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.5%; }
+.span_1_of_3 { width: 33%; }
+
+
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
