@@ -6,11 +6,7 @@ console.log(document.CustomerInfo.email.value);
 
 
 var cart = [
-
-
-  {name: "Fringed Plaid Scarf" id: "item01"}
 ];
-
 
 function plaid()
 {
@@ -23,10 +19,13 @@ console.log(cart);
 
 function removeplaid()
 {
+
   event.preventDefault();
-cart.pop("Plaid Scarf");
-var size= cart.length;
-console.log(cart);
+
+  cart.pop("Plaid Scarf");
+  var size= cart.length;
+  console.log(cart);
+
 }
 
 
@@ -61,7 +60,7 @@ console.log(cart);
 function removefringedplaid()
 {
   event.preventDefault();
-  cart.splice("item01");
+  cart.pop("Fringed Plaid Scarf");
 var size= cart.length;
 console.log(cart);
 }
