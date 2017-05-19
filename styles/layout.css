@@ -108,7 +108,8 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+	.span_2_of_2, .span_1_of_2 { width: 100%;
+
 }
 
 
@@ -133,4 +134,5 @@ img {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+  header { background-color: green;}
 }
